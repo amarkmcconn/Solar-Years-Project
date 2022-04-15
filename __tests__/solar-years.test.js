@@ -13,27 +13,7 @@ beforeEach(() => {
     expect(human.exp).toEqual(75); 
   });
 
-  // test('should use this.age to find Mercury years to correct value', () => {
-  //   let mercuryYears = human.mercury();
-  //   expect(mercuryYears).toEqual(146);
-  // });
-
-  // test('should use this.age to find Venus years', () => {
-  //   let venusYears = human.venus();
-  //   expect(venusYears).toEqual(56);
-  // });
-
-  // test('should use this.age to find Mars years', () => {
-  //   let marsYears = human.mars();
-  //   expect(marsYears).toEqual(19)
-  // });
-
-  // test('should use this.age to find jupiter years', () => {
-  //   let jupiterYears = human.jupiter();
-  //   expect(jupiterYears).toEqual(3)
-  // });
-
-  test('should use this.Exp to get remaing life exp on planet mercury', () => {
+    test('should use this.Exp to get remaing life exp on planet mercury', () => {
     let merYears = human.mercuryLifeExp();
     expect(merYears).toEqual(167);
   });

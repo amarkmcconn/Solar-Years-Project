@@ -14,18 +14,6 @@ export default class Human {
     this.mars = (Math.round((this.age/1.88)));
     this.jupiter = (Math.round((this.age/11.86)));
   }
-  // mercury = () => {
-  //   return (Math.round((this.age/.24)));
-  // }
-  // venus = () => {
-  //   return (Math.round((this.age/.62)));
-  // }
-  // mars = () => {
-  //   return (Math.round((this.age/1.88)));
-  // }
-  // jupiter = () => {
-  //   return (Math.round((this.age/11.86)));
-  // }
   mercuryLifeExp = () => {
     return ((Math.round((this.exp/.24))) - (Math.round((this.age/.24))));
   }
