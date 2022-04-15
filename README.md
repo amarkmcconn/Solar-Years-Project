@@ -1,27 +1,29 @@
-# _{Application Name}_
-#### By _**{List of contributors}**_
-#### _{Brief description of application}_
-## Technologies Used
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
-## Description
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
-## Setup/Installation Requirements
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
-## Known Bugs
+# _Solar Years_
+#### By _Mark McConnell_
+#### _This is web application that will let a user know how old they are on a different planet_
+### Technologies Used 🖥️
+* _CSS_
+* _HTML_
+* _JavaScript_
+* _Fully Built environment with testing_
+### Project Description 📖
+_A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. For instance, a solar year on Mercury lasts 88 days. This is an application that determines a user's age based on a planet's solar years._
+### Installation Instructions 🖊️
+* _Clone this repository to your desktop_
+* _open the main folder in your terminal_
+* _In your terminal from the main folder $ npm run build_
+* _from your terminal then type code . to access the vsCode and test environment_
+* 
 
-* _Any known issues_
-* _should go here_
+### Known Bugs 🐛
+
+* _No Known bugs at this time_
+
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-Copyright (c) _date_ _author name(s)_
+_If you run into any issues or have questions, ideas or concerns.  Please contact me mark.programming1@gmail.comm or make a contribution to the code._
+
+Copyright (c) _2022_ _Mark McConnell_
