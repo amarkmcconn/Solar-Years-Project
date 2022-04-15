@@ -4,12 +4,13 @@ describe('Human', () =>  {
 let human;
 
 beforeEach(() => {
-  human = new Human ("Mark", 35);
+  human = new Human ("Mark", 35, "male");
 });
 
   test('should correctly create a human object', () => {
     expect(human.name).toEqual("Mark");
-    expect(human.age).toEqual(35); 
+    expect(human.age).toEqual(35);
+    expect(human.gender).toEqual("male"); 
   });
 
   test('should use this.age to find Mercury years to correct value', () => {
@@ -33,6 +34,7 @@ beforeEach(() => {
   });
 
   test('should determine life expectancy on each planet if gender input is male', () => {
-    expect(human.expectancy).toEqual(["270", "105", "35", "5"])
+    human.expectancy();
+    expect(human.expectancy).toEqual["270", "105", "35", "5"]
   })
 });
