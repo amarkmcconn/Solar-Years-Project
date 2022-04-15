@@ -7,4 +7,8 @@ export default class Human {
     let age =  this.age
     return Math.floor((age/.24))
   }
+  venus = () => {
+    let age = this.age
+    return Math.floor((age/.62))
+  }
 }
