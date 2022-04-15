@@ -37,4 +37,19 @@ beforeEach(() => {
     let merYears = human.mercuryLifeExp();
     expect(merYears).toEqual(167);
   });
+
+  test('should use this.Exp to get remaing life exp on planet venus', () => {
+    let venusYears = human.venusLifeExp();
+    expect(venusYears).toEqual(49);
+  });
+
+  test('should use this.Exp to get remaing life exp on planet mars', () => {
+    let marsYears = human.marsLifeExp();
+    expect(marsYears).toEqual(16);
+  });
+
+  test('should use this.Exp to get remaing life exp on planet jupiter', () => {
+    let jupiterYears = human.jupiterLifeExp();
+    expect(jupiterYears).toEqual(2);
+  });
 });
