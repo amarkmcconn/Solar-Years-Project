@@ -23,8 +23,10 @@ export default class Human {
   expectancy = () => {
     let gender = this.gender
       if (gender = male) {
-        
+        lifeExpectancyMercury = (65/.24)
+        lifeExpectancyVenus = (65/.62)
+        lifeExpectancyMars = (65/1.88)
+        lifeExpectancyJupiter = (65/11.86)
     }
-
   }
 }

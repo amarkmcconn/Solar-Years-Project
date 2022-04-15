@@ -33,9 +33,6 @@ beforeEach(() => {
   });
 
   test('should determine life expectancy on each planet if gender input is male', () => {
-    expect(lifeExpectancyMercury).toEqual(271)
-    expect(lifeExpectancyVenus).toEqual(105)
-    expect(lifeExpectancyMars).toEqual(35)
-    expect(lifeExpectancyJupiter).toEqual(5)
+    expect(human.expectancy).toEqual(["270", "105", "35", "5"])
   })
 });
