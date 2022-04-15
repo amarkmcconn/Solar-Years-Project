@@ -63,10 +63,21 @@ beforeEach(() => {
     let extra = human.extraYears();
     expect(extra).toEqual(83);
   })
-  test('should return a postive number if this age is greater than life exp for mercury', () => {
+  test('should return a statement if this age is less than life exp for mercury', () => {
     let human = new Human ("JJ", 60, 80)
     let extra = human.extraYears();
+    expect(extra).toEqual("You haven't passed your life expectancy yet!");
+  })
+
+  test('should return a postive number if this age is greater than life exp for venus', () => {
+    let human = new Human ("JJ", 80, 60)
+    let extra = human.extraYears();
     expect(extra).toEqual(83);
+  })
+  test('should return a statement if this age is less than life exp for venus', () => {
+    let human = new Human ("JJ", 60, 80)
+    let extra = human.extraYears();
+    expect(extra).toEqual("You haven't passed your life expectancy yet!");
   })
 
 });
