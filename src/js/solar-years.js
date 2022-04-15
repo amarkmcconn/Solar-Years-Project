@@ -5,7 +5,7 @@ export default class Human {
     this.gender = gender;
   }
   mercury = () => {
-    let age =  this.age
+    let age = this.age
     return Math.round((age/.24))
   }
   venus = () => {
@@ -20,9 +20,5 @@ export default class Human {
     let age  = this.age
     return Math.round((age/11.86))
   }
-   expectancy() {
-    if (this.gender === "male") {
-        return [270, 105, 35, 5];
-    }
-  }
+  
 }

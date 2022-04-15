@@ -32,9 +32,4 @@ beforeEach(() => {
     let jupiterYears = human.jupiter();
     expect(jupiterYears).toEqual(3)
   });
-
-  test('should determine life expectancy on each planet if gender input is male', () => {
-    human.expectancy();
-    expect(human.expectancy).toEqual["270", "105", "35", "5"]
-  })
 });
