@@ -31,11 +31,15 @@ export default class Human {
   extraYears() {
     if (this.mercuryLifeExp() < 0) {
       return (Math.abs(((Math.round((this.exp/.24))) - (Math.round((this.age/.24))))));
-    } else if (this.mercuryLifeExp() < 0) {
+    } else {
       return "You haven't passed your life expectancy yet!"
-    } else if (this.venusLifeExp() < 0) {
-      return (Math.abs(((Math.round((this.exp/.24))) - (Math.round((this.age/.24))))));
-    } 
+    }
+  } 
+  extraYears1() {     
+    if (this.venusLifeExp() < 0) {
+      return (Math.abs(((Math.round((this.exp/.62))) - (Math.round((this.age/.62))))));
+    } else {
+      return "You haven't passed your life expectancy yet!"
+    }
   }
 }
-
