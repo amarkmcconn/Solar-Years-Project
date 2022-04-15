@@ -23,5 +23,14 @@ export default class Human {
   mercuryLifeExp = () => {
     return ((Math.round((this.exp/.24))) - (Math.round((this.age/.24))));
   }
+  venusLifeExp = () => {
+    return ((Math.round((this.exp/.62))) - (Math.round((this.age/.62))));
+  }
+  marsLifeExp = () => {
+    return ((Math.round((this.exp/1.88))) - (Math.round((this.age/1.88))));
+  }
+  jupiterLifeExp = () => {
+    return ((Math.round((this.exp/11.86))) - (Math.round((this.age/11.86))));
+  }
   
 }

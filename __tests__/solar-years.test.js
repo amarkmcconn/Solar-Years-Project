@@ -40,16 +40,16 @@ beforeEach(() => {
 
   test('should use this.Exp to get remaing life exp on planet venus', () => {
     let venusYears = human.venusLifeExp();
-    expect(venusYears).toEqual(49);
+    expect(venusYears).toEqual(65);
   });
 
   test('should use this.Exp to get remaing life exp on planet mars', () => {
     let marsYears = human.marsLifeExp();
-    expect(marsYears).toEqual(16);
+    expect(marsYears).toEqual(21);
   });
 
   test('should use this.Exp to get remaing life exp on planet jupiter', () => {
     let jupiterYears = human.jupiterLifeExp();
-    expect(jupiterYears).toEqual(2);
+    expect(jupiterYears).toEqual(3);
   });
 });
