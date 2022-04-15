@@ -52,4 +52,13 @@ beforeEach(() => {
     let jupiterYears = human.jupiterLifeExp();
     expect(jupiterYears).toEqual(3);
   });
+
+  test('should use this.Exp to get remaing life exp on planet jupiter', () => {
+    let jupiterYears = human.jupiterLifeExp();
+    expect(jupiterYears).toEqual(3);
+  });
+
+  // test('should return a postive number if this age is greater than life exp', () => {
+
+  // })
 });
