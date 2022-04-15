@@ -58,7 +58,9 @@ beforeEach(() => {
     expect(jupiterYears).toEqual(3);
   });
 
-  // test('should return a postive number if this age is greater than life exp', () => {
-
-  // })
+  test('should return a postive number if this age is greater than life exp for mercury', () => {
+    let human = new Human ("JJ", 80, 60)
+    let extra = human.extraYears();
+    expect(extra).toEqual();
+  })
 });
