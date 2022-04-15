@@ -3,19 +3,29 @@ export default class Human {
     this.name  = name;
     this.age = age;
     this.exp = lifeExp;
+    this.mercury = {};
+    this.venus = {};
+    this.mars = {};
+    this.jupiter = {};
   }
-  mercury = () => {
-    return (Math.round((this.age/.24)));
+  planetAges() {
+    this.mercury = (Math.round((this.age/.24)));
+    this.venus = (Math.round((this.age/.62)));
+    this.mars = (Math.round((this.age/1.88)));
+    this.jupiter = (Math.round((this.age/11.86)));
   }
-  venus = () => {
-    return (Math.round((this.age/.62)));
-  }
-  mars = () => {
-    return (Math.round((this.age/1.88)));
-  }
-  jupiter = () => {
-    return (Math.round((this.age/11.86)));
-  }
+  // mercury = () => {
+  //   return (Math.round((this.age/.24)));
+  // }
+  // venus = () => {
+  //   return (Math.round((this.age/.62)));
+  // }
+  // mars = () => {
+  //   return (Math.round((this.age/1.88)));
+  // }
+  // jupiter = () => {
+  //   return (Math.round((this.age/11.86)));
+  // }
   mercuryLifeExp = () => {
     return ((Math.round((this.exp/.24))) - (Math.round((this.age/.24))));
   }

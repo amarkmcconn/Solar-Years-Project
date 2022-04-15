@@ -13,25 +13,25 @@ beforeEach(() => {
     expect(human.exp).toEqual(75); 
   });
 
-  test('should use this.age to find Mercury years to correct value', () => {
-    let mercuryYears = human.mercury();
-    expect(mercuryYears).toEqual(146);
-  });
+  // test('should use this.age to find Mercury years to correct value', () => {
+  //   let mercuryYears = human.mercury();
+  //   expect(mercuryYears).toEqual(146);
+  // });
 
-  test('should use this.age to find Venus years', () => {
-    let venusYears = human.venus();
-    expect(venusYears).toEqual(56);
-  });
+  // test('should use this.age to find Venus years', () => {
+  //   let venusYears = human.venus();
+  //   expect(venusYears).toEqual(56);
+  // });
 
-  test('should use this.age to find Mars years', () => {
-    let marsYears = human.mars();
-    expect(marsYears).toEqual(19)
-  });
+  // test('should use this.age to find Mars years', () => {
+  //   let marsYears = human.mars();
+  //   expect(marsYears).toEqual(19)
+  // });
 
-  test('should use this.age to find jupiter years', () => {
-    let jupiterYears = human.jupiter();
-    expect(jupiterYears).toEqual(3)
-  });
+  // test('should use this.age to find jupiter years', () => {
+  //   let jupiterYears = human.jupiter();
+  //   expect(jupiterYears).toEqual(3)
+  // });
 
   test('should use this.Exp to get remaing life exp on planet mercury', () => {
     let merYears = human.mercuryLifeExp();
@@ -102,4 +102,12 @@ beforeEach(() => {
     expect(extra).toEqual("You haven't passed your life expectancy yet!");
   })
 
+  test('should return all planet ages', () => {
+    let human = new Human ("JJ", 60, 80)
+    human.planetAges();
+    expect(human.mercury).toEqual(250);
+    expect(human.venus).toEqual(97);
+    expect(human.mars).toEqual(32);
+    expect(human.jupiter).toEqual(5);
+  })
 });
