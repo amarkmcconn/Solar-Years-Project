@@ -1,7 +1,8 @@
 export default class Human {
-  constructor (name, age) {
+  constructor (name, age, gender) {
     this.name  = name;
     this.age = age;
+    this.gender = gender
   }
   mercury = () => {
     let age =  this.age
@@ -18,5 +19,12 @@ export default class Human {
   jupiter = () => {
     let age  = this.age
     return Math.round((age/11.86))
+  }
+  expectancy = () => {
+    let gender = this.gender
+      if (gender = male) {
+        
+    }
+
   }
 }
