@@ -5,14 +5,15 @@ export default class Human {
   }
   mercury = () => {
     let age =  this.age
-    return Math.floor((age/.24))
+    return Math.round((age/.24))
   }
   venus = () => {
     let age = this.age
-    return Math.floor((age/.62))
+    return Math.round((age/.62))
   }
   mars = () => {
     let age = this.age
-    return Math.floor((age/1.88))
+    return Math.round((age/1.88))
   }
+  jupiter
 }
