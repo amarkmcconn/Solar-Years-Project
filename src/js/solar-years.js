@@ -49,4 +49,5 @@ export default class Human {
       return "You haven't passed your life expectancy yet!"
     }
   }
+  
 }
