@@ -14,21 +14,21 @@ beforeEach(() => {
 
   test('should use this.age to find Mercury years to correct value', () => {
     let mercuryYears = human.mercury();
-    expect(mercuryYears).toEqual(145);
+    expect(mercuryYears).toEqual(146);
   });
 
   test('should use this.age to find Venus years', () => {
     let venusYears = human.venus();
-    expect(venusYears).toEqual(57);
+    expect(venusYears).toEqual(56);
   });
 
   test('should use this.age to find Mars years', () => {
     let marsYears = human.mars();
-    expect(marsYears).toEqual(18)
+    expect(marsYears).toEqual(19)
   });
 
-  test('should use  this.age to find jupiter years', () => {
-    let juptierYears  =  human.jupiter();
-    expect(juptierYears).toEqual(3)
+  test('should use this.age to find jupiter years', () => {
+    let jupiterYears = human.jupiter();
+    expect(jupiterYears).toEqual(3)
   });
 });

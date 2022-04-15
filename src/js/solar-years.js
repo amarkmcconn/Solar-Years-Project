@@ -15,5 +15,8 @@ export default class Human {
     let age = this.age
     return Math.round((age/1.88))
   }
-  jupiter
+  jupiter = () => {
+    let age  = this.age
+    return Math.round((age/11.86))
+  }
 }
