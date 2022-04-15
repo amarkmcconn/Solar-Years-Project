@@ -49,5 +49,11 @@ export default class Human {
       return "You haven't passed your life expectancy yet!"
     }
   }
-  
+  extraYears3() {     
+    if (this.jupiterLifeExp() < 0) {
+      return (Math.abs(((Math.round((this.exp/11.86))) - (Math.round((this.age/11.86))))));
+    } else {
+      return "You haven't passed your life expectancy yet!"
+    }
+  }
 }
