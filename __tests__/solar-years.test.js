@@ -85,9 +85,9 @@ beforeEach(() => {
   test('should return all planet ages', () => {
     let human = new Human ("JJ", 60, 80)
     human.planetAges();
-    expect(human.mercury).toEqual(250);
-    expect(human.venus).toEqual(97);
-    expect(human.mars).toEqual(32);
-    expect(human.jupiter).toEqual(5);
+    expect(human.mercuryAge).toEqual(250);
+    expect(human.venusAge).toEqual(97);
+    expect(human.marsAge).toEqual(32);
+    expect(human.jupiterAge).toEqual(5);
   })
 });
