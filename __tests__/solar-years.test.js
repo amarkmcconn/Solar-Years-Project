@@ -90,13 +90,4 @@ beforeEach(() => {
     expect(human.marsAge).toEqual(32);
     expect(human.jupiterAge).toEqual(5);
   })
-
-  test('should return all planets remaing life expectancy', () => {
-    human.planetLifeExp();
-    expect(human.mercuryLifeExp).toEqual(250);
-    expect(human.venusLifeExp).toEqual(97);
-    expect(human.marsLifeExp).toEqual(32);
-    expect(human.jupiterLifeExp).toEqual(5);
-
-  })
 });
