@@ -83,9 +83,9 @@ beforeEach(() => {
   test('should return a postive number if this age is greater than life exp for mars', () => {
     let human = new Human ("JJ", 80, 60)
     let extra = human.extraYears2();
-    expect(extra).toEqual(32);
+    expect(extra).toEqual(11);
   })
-  test('should return a statement if this age is less than life exp for jupiter', () => {
+  test('should return a statement if this age is less than life exp for mars', () => {
     let human = new Human ("JJ", 60, 80)
     let extra = human.extraYears2();
     expect(extra).toEqual("You haven't passed your life expectancy yet!");
