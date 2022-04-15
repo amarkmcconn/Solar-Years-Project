@@ -24,6 +24,6 @@ beforeEach(() => {
 
   test('should use this.get to find Mars years', () => {
     let marsYears = human.mars();
-    expect(marsYears).toEqual()
+    expect(marsYears).toEqual(18)
   })
 });

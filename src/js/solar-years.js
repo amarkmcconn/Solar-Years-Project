@@ -11,4 +11,8 @@ export default class Human {
     let age = this.age
     return Math.floor((age/.62))
   }
+  mars = () => {
+    let age = this.age
+    return Math.floor((age/1.88))
+  }
 }
