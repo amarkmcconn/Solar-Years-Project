@@ -95,4 +95,9 @@ beforeEach(() => {
     human.planetAges();
     expect(human.mercuryAge).toEqual(146);
   })
+
+  test('should return venus planet age', () => {
+    human.planetAges();
+    expect(human.venusAge).toEqual(56);
+  })
 });
