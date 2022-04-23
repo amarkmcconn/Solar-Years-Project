@@ -96,4 +96,9 @@ beforeEach(() => {
     human.planetAges();
     expect(human.marsAge).toEqual(19);
   })
+
+  test('should return jupiter planet age', () => {
+    human.planetAges();
+    expect(human.jupiterAge).toEqual(3);
+  })
 });
