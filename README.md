@@ -15,7 +15,7 @@ _A solar year lasts 365 days on planet Earth. However, the length of a solar yea
 * _open The Root Directory folder in your terminal_
 * _From your terminal enter: "code ." to access the VsCode and test environment_
 * _In your terminal in VsCode or your Terminal window from the Root Directory $ npm run Install_
-* _ Then run $ npm run build_
+* _Then run $ npm run build_
 * _You can then run the test environment by using $ npm run test in your terminal to see the test and test coverage_
 
 
@@ -28,6 +28,6 @@ _A solar year lasts 365 days on planet Earth. However, the length of a solar yea
 
 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-_If you run into any issues or have questions, ideas, or concerns. Please contact me at mark.programming1@gmail.com or make an update to the code._
+_If you run into any issues or have questions, ideas, or concerns; Please contact me at mark.programming1@gmail.com or make an update to the code._
 
 Copyright (c) _2022_ _Mark McConnell_
