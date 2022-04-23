@@ -82,15 +82,6 @@ beforeEach(() => {
     expect(extra).toEqual("You haven't passed your life expectancy yet!");
   })
 
-  test('should return all planet ages', () => {
-    let human = new Human ("JJ", 60, 80)
-    human.planetAges();
-    expect(human.mercuryAge).toEqual(250);
-    expect(human.venusAge).toEqual(97);
-    expect(human.marsAge).toEqual(32);
-    expect(human.jupiterAge).toEqual(5);
-  })
-
   test('should return mercury planet age', () => {
     human.planetAges();
     expect(human.mercuryAge).toEqual(146);
@@ -99,5 +90,10 @@ beforeEach(() => {
   test('should return venus planet age', () => {
     human.planetAges();
     expect(human.venusAge).toEqual(56);
+  })
+
+  test('should return mars planet age', () => {
+    human.planetAges();
+    expect(human.marsAge).toEqual(19);
   })
 });
