@@ -13,32 +13,32 @@ beforeEach(() => {
     expect(human.exp).toEqual(75); 
   });
 
-    test('should use this.Exp to get remaing life exp on planet mercury', () => {
+    test('should use this.Exp to get remaining life exp on planet mercury', () => {
     let merYears = human.mercuryLifeExp();
     expect(merYears).toEqual(167);
   });
 
-  test('should use this.Exp to get remaing life exp on planet venus', () => {
+  test('should use this.Exp to get remaining life exp on planet venus', () => {
     let venusYears = human.venusLifeExp();
     expect(venusYears).toEqual(65);
   });
 
-  test('should use this.Exp to get remaing life exp on planet mars', () => {
+  test('should use this.Exp to get remaining life exp on planet mars', () => {
     let marsYears = human.marsLifeExp();
     expect(marsYears).toEqual(21);
   });
 
-  test('should use this.Exp to get remaing life exp on planet jupiter', () => {
+  test('should use this.Exp to get remaining life exp on planet jupiter', () => {
     let jupiterYears = human.jupiterLifeExp();
     expect(jupiterYears).toEqual(3);
   });
 
-  test('should use this.Exp to get remaing life exp on planet jupiter', () => {
+  test('should use this.Exp to get remaining life exp on planet jupiter', () => {
     let jupiterYears = human.jupiterLifeExp();
     expect(jupiterYears).toEqual(3);
   });
 
-  test('should return a postive number if this age is greater than life exp for mercury', () => {
+  test('should return a positive number if this age is greater than life exp for mercury', () => {
     let human = new Human ("JJ", 80, 60)
     let extra = human.extraYears();
     expect(extra).toEqual(83);
@@ -49,7 +49,7 @@ beforeEach(() => {
     expect(extra).toEqual("You haven't passed your life expectancy yet!");
   })
 
-  test('should return a postive number if this age is greater than life exp for venus', () => {
+  test('should return a positive number if this age is greater than life exp for venus', () => {
     let human = new Human ("JJ", 80, 60)
     let extra = human.extraYears1();
     expect(extra).toEqual(32);
@@ -60,7 +60,7 @@ beforeEach(() => {
     expect(extra).toEqual("You haven't passed your life expectancy yet!");
   })
 
-  test('should return a postive number if this age is greater than life exp for mars', () => {
+  test('should return a positive number if this age is greater than life exp for mars', () => {
     let human = new Human ("JJ", 80, 60)
     let extra = human.extraYears2();
     expect(extra).toEqual(11);
@@ -71,7 +71,7 @@ beforeEach(() => {
     expect(extra).toEqual("You haven't passed your life expectancy yet!");
   })
 
-  test('should return a postive number if this age is greater than life exp for jupiter', () => {
+  test('should return a positive number if this age is greater than life exp for jupiter', () => {
     let human = new Human ("JJ", 80, 60)
     let extra = human.extraYears3();
     expect(extra).toEqual(2);
@@ -89,5 +89,10 @@ beforeEach(() => {
     expect(human.venusAge).toEqual(97);
     expect(human.marsAge).toEqual(32);
     expect(human.jupiterAge).toEqual(5);
+  })
+
+  test('should return mercury planet age', () => {
+    human.planetAges();
+    expect(human.mercuryAge).toEqual(146);
   })
 });
