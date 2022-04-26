@@ -3,10 +3,10 @@ export default class Human {
     this.name  = name;
     this.age = age;
     this.exp = lifeExp;
-    this.mercuryAge = {};
-    this.venusAge = {};
-    this.marsAge = {};
-    this.jupiterAge = {};
+    this.mercuryAge = 0;
+    this.venusAge = 0;
+    this.marsAge = 0;
+    this.jupiterAge = 0;
   }
   planetAges() {
     this.mercuryAge = (Math.round((this.age/.24)));
